@@ -396,6 +396,7 @@
 				GCC_PREFIX_HEADER = "CICDSampleApp/CICDSampleApp-Prefix.pch";
 				INFOPLIST_FILE = "CICDSampleApp/CICDSampleApp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -409,6 +410,7 @@
 				GCC_PREFIX_HEADER = "CICDSampleApp/CICDSampleApp-Prefix.pch";
 				INFOPLIST_FILE = "CICDSampleApp/CICDSampleApp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -474,6 +476,7 @@
 				4BE1EF8E182CF7C60001134C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4BE1EF8F182CF7C60001134C /* Build configuration list for PBXNativeTarget "CICDSampleAppTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +485,7 @@
 				4BE1EF91182CF7C60001134C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
